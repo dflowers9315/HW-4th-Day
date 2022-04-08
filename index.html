@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denise Flores</title>
+<!--Style is an element -->
+<style>
+    img {
+        width: 100px;
+    }
+</style>
+</head>
+<body>
+<!-- Image Element doesn't have closing tag becausehte it can't have any child elements. --
+!-- 2 Attributes, Source and Alt : provides additional information about the element. Source element 
+specifies the path to the image (must create new folder called Images)-->
+
+<img src="images/DF.jpg">
+    <h1>Hello everyone! Can you believe we're at the end of Week 1?</h1>
+    <h2>So far this week we have learned...</h2>
+
+<p id="loopdemo"></p>
+
+<script>
+const lesson = ["HTML", "CSS", "Javascript"];
+let i, len, text;
+for (i = 0, len = lesson.length, text = ""; i < len; i++) {
+  text += lesson[i] + "<br>";
+}
+document.getElementById("loopdemo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+</body>
+</html>
